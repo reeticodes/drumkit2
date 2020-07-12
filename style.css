@@ -1,0 +1,53 @@
+html {
+  font-size: 10px;
+  background: url(/wallpapers/97fa98739f47fc3071e0237bd30feec3.jpg) bottom
+    center;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  display: inline-block;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  -webkit- transition: all 0.7s;
+  width: 10%;
+  text-align: center;
+  color: pink;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+.playing {
+  transform: scale(1.2);
+  border-color: white;
+  box-shadow: 0 0 1rem pink;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: pink;
+}
